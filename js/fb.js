@@ -4,7 +4,7 @@ Facebook Emoticon by @mzaini30 - http://mzaini30.github.io
 
  */
 $(function(){
-	$(".contenta").html($(".contenta").html()
+	$(".post-body").html($(".post-body").html()
 							.replace(/\s:poop:/g, "&nbsp;<img src='http://s18.postimg.org/zedlm3ndh/image.png'/>")
 							.replace(/\s:putnam:/g, "&nbsp;<img src='http://s18.postimg.org/wybs895at/image.png'/>")
 							.replace(/\s:\)/g, "&nbsp;<img src='http://s14.postimg.org/5ivq2dv5p/image.png'/>")
